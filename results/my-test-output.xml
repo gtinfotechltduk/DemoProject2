@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.186" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-30T00:19:16" tests="1" file="cypress/e2e/login.spec.js" time="0.186" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; Cannot call `cy.clearCookies()` outside a running test.
+
+This usually happens when you accidentally write commands outside an `it(...)` test.
+
+If that is the case, just move these commands inside an `it(...)` test.
+
+Check your test file for errors.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+
+https://on.cypress.io/cannot-execute-commands-outside-test" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress.
+
+  > Cannot call `cy.clearCookies()` outside a running test.
+
+This usually happens when you accidentally write commands outside an `it(...)` test.
+
+If that is the case, just move these commands inside an `it(...)` test.
+
+Check your test file for errors.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+
+https://on.cypress.io/cannot-execute-commands-outside-test
+    at ensureRunnable (https://demoblaze.com/__cypress/runner/cypress_runner.js:137503:58)
+    at cy.<computed> [as clearCookies] (https://demoblaze.com/__cypress/runner/cypress_runner.js:137988:7)
+    at Object.create (https://demoblaze.com/__cypress/runner/cypress_runner.js:160763:19)
+    at context.describe.context.context (https://demoblaze.com/__cypress/runner/cypress_runner.js:160482:27)
+    at createRunnable (https://demoblaze.com/__cypress/runner/cypress_runner.js:145095:31)
+    at <unknown> (https://demoblaze.com/__cypress/runner/cypress_runner.js:145156:14)
+    at <unknown> (https://demoblaze.com/__cypress/runner/cypress_runner.js:111676:23)
+    at tryCatcher (https://demoblaze.com/__cypress/runner/cypress_runner.js:1830:23)
+    at Object.gotValue (https://demoblaze.com/__cypress/runner/cypress_runner.js:6499:18)
+    at Object.gotAccum (https://demoblaze.com/__cypress/runner/cypress_runner.js:6488:25)
+    at Object.tryCatcher (https://demoblaze.com/__cypress/runner/cypress_runner.js:1830:23)
+    at Promise._settlePromiseFromHandler (https://demoblaze.com/__cypress/runner/cypress_runner.js:1542:31)
+    at Promise._settlePromise (https://demoblaze.com/__cypress/runner/cypress_runner.js:1599:18)
+    at Promise._settlePromise0 (https://demoblaze.com/__cypress/runner/cypress_runner.js:1644:10)
+    at Promise._settlePromises (https://demoblaze.com/__cypress/runner/cypress_runner.js:1724:18)
+    at _drainQueueStep (https://demoblaze.com/__cypress/runner/cypress_runner.js:2430:12)
+    at _drainQueue (https://demoblaze.com/__cypress/runner/cypress_runner.js:2423:9)
+    at Async._drainQueues (https://demoblaze.com/__cypress/runner/cypress_runner.js:2439:5)
+    at Async.drainQueues (https://demoblaze.com/__cypress/runner/cypress_runner.js:2309:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
